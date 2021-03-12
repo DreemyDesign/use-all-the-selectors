@@ -5,6 +5,7 @@
 }
 
 html {
+  box-sizing: border-box;
   font-family: serif;
 }
 
@@ -36,7 +37,7 @@ nav ul {
   background-color: #b58900;
 }
 
-div.dfn strong:not(p strong) {
+div.dfn > strong {
   color: #fff;
 }
 
