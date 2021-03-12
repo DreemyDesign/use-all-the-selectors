@@ -19,7 +19,7 @@ nav ul {
 }
 
 #contents, #favs, #facts, #types {
-  color: #93a1a1
+  color: #93a1a1;
 }
 
 .wrapper .dfn {
@@ -30,13 +30,14 @@ nav ul {
   color: #fff;
 }
 
-a, :not (.no-highlight) {
+a:not(.no-highlight) {
   background-color: #719e07;
 }
 
-link[rel="external"]{
+link[rel="external"] {
   background-color: #2694d8;
 }
+
 ol li:first-child {
   color: #719e47;
 }
